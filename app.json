@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Palmabeach",
+    "slug": "palmabeach",
+    "version": "1.0.0",
+    "scheme": "palmabeach",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.palmabeach.app"
+    },
+    "android": {
+      "package": "com.palmabeach.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "444fbea0-22aa-4241-9980-d9c9094f3959"
+      }
+    }
+  }
+}
